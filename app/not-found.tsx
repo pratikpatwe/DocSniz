@@ -3,12 +3,15 @@
 import { Home, ArrowLeft } from 'lucide-react';
 import Link from "next/link";
 
+
+
+
 export default function NotFoundPage() {
   return (
     <section className="flex flex-col items-center justify-center min-h-screen p-6 text-center">
       {/* Simple badge */}
-      <div className="px-4 py-2 mb-6 text-base font-medium bg-white rounded-full border border-rose-200">
-        <p className="text-rose-600">404 Not Found</p>
+      <div className="py-4 mb-2">
+        <iframe className='w-auto h-[250px]' src="https://lottie.host/embed/2bc2c313-d540-420b-9c01-0297a027defe/QnZD0cEBvc.json"></iframe>
       </div>
 
       {/* Main heading */}
