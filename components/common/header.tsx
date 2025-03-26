@@ -1,7 +1,7 @@
 import NavLink from "./nav-link";
 import Image from "next/image";
 import logo from "../../public/logo.svg";
-import { BadgeCheck } from 'lucide-react';
+// import { BadgeCheck } from 'lucide-react';
 import {
   SignedIn,
   SignedOut,
@@ -36,7 +36,14 @@ export default function Header() {
         <SignedIn>
           <div className="flex gap-2 items-center">
             <NavLink href="/upload">Upload a PDF</NavLink>
-            <div className="px-2 py-[1px] text-amber-500 bg-amber-100 border-1 border-amber-200 rounded-xl flex items-center mx-0.5 justify-center"><p className="mb-[1px]">pro</p>  <BadgeCheck className="ml-2" size={12} /></div>
+
+            {/* 
+            <div className="px-2 py-[1px] text-amber-500 bg-amber-100 border-1 border-amber-200 rounded-xl flex items-center mx-0.5 justify-center">
+              <p className="mb-[1px]">
+                pro
+              </p>
+              <BadgeCheck className="ml-2" size={12} />
+            </div> */}
 
             <SignedIn>
               <UserButton />
